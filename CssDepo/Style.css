@@ -1,0 +1,607 @@
+body{
+    background-color: rgb(224, 85, 92);
+}
+h1{
+    color:rgb(236, 236, 236);
+}
+p{
+    
+    color: rgb(242, 255, 255);
+}
+iframe{
+    height:500px;
+    width:1000px;
+    ;
+}
+
+
+#nikaParagraph{
+
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    background-color: rgb(255, 177, 154);
+    width: 500px;
+    border-radius: 25px;
+    
+}
+
+/* para classes= .class| para id #id*/
+.par{
+    background-color: rgb(128, 43, 43);
+}
+.impar{
+    background-color: rgb(185, 109, 109);
+}
+#div1{
+    background-color: rgb(119, 35, 35);
+
+}
+.botoesIndice{
+    height: 100px;
+    width: 300px;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.171);
+    color: aliceblue;
+    border-radius: 50px; 
+    border: color black;
+    margin: 4px;
+
+}
+.botoesIndice:hover{
+    background-color: rgba(165, 42, 42, 0.432);
+}
+.botoesIndice:active{
+    background-color: rgba(185, 119, 119, 0.432);
+}
+
+.divIndice{
+
+    background-color: rgba(211, 11, 11, 0.479);
+    border: 200px color  rgb(47, 0, 255); 
+    height: auto;
+    width: 700px;
+    border-radius: 30px;
+    padding-bottom: 15px;
+
+    background-position: center;
+    background-attachment: fixed;
+    margin:0px;
+
+
+
+    
+}
+#indiceTitle{
+    font-size: 60px;
+    
+  
+    
+    border-radius: 30px;
+}
+.div{
+    background-color: rgba(134, 20, 20, 0.767);
+   
+    
+    min-height: 500px;
+    max-height: 1000px;
+    
+    min-width: 600px;
+    max-width: 1000px;
+    border-radius: 30px;
+
+}
+.Titulos1{
+    background-color: rgba(145, 27, 27, 0.623);
+    min-width: 600px;
+    border-radius: 25px;
+    max-width: 1000px;
+    color: aliceblue;
+    font-size: 60px;
+    
+
+
+}
+.parag1{
+    font-size: 24px;
+}
+
+#p1{
+font-size: 35px;
+font-family: "Times new Roman",sans-serif;
+font-style: italic;
+font-weight: bold;
+text-decoration: wavy underline;
+/*dotted tmb da| Cor vem antess*/
+}
+
+#p2{
+    /*Por mais de uma fonte no caso de o browser n suportar*/
+    font-family: "Press Start 2p";
+}
+
+.bordersBody{
+    background-color: rgba(240, 248, 255, 0.452);
+    backdrop-filter: blur(px);
+    height: 900px;
+    padding: 25px;
+    background: url(Images/Akihabara.jpg);
+    background-repeat: no-repeat;
+    background-size: 115% 115%;
+    background-position: auto;
+    
+}
+.overallDiv{
+
+    
+    backdrop-filter: blur(3px);
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.555);
+    border-radius: 20px;
+    min-height : 900px;
+    max-height: 1000px;
+    
+}
+.headerBorders{
+    font-size: 200px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    backdrop-filter: blur(10px);
+    width: 700px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+.leftDivBorders{
+    backdrop-filter: blur(3px);
+    border-width: 5px;
+    min-height: 500px;
+    /*padding serve para dar um espaço entre as os conteudos e a borda*/
+    padding: 1px;
+    padding-left: 20px;
+}
+.topDivBorders{
+    backdrop-filter: blur(3px) ;
+}
+
+.botoesBorders{
+    background-color: transparent;
+    color: aliceblue;
+    height: 50px;
+    width: 100px;
+    font-size: 30px;
+    backdrop-filter: blur(200px);
+    border-style:solid;
+    border-radius: 25px;
+ 
+}
+.botoesBorders:hover{
+    background-color: rgba(240, 248, 255, 0.301);
+    box-shadow: 0px 0px 6px white;
+
+
+}
+.botoesBorders:active{
+    background-color: rgba(240, 248, 255, 0.603);
+}
+
+.bordersPrgs{
+    font-size: 30px;
+    
+
+    
+    
+}
+.borderDivPrgs{
+    backdrop-filter: blur(8px);
+    border-top-right-radius:  30px;
+    border-bottom-right-radius: 30px;
+    width: 1100px;
+    border-left-style:solid;
+    border-color:rgba(255, 255, 255, 0.719);
+    border-width: 4px;
+    padding-left: 10px;
+    padding-right: 100px ;
+    
+}
+.headerBorders{
+    
+    padding-top:10px;
+    padding-left: 10px;
+
+
+ 
+
+}
+.backgroundBody{
+    /*background-color: rgb(81, 86, 167); - cor do background, solida*/
+    
+
+    /*background: linear-gradient(to right, rgb(149, 51, 161), rgb(255, 127, 8)) ;
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    Background-repeat=faz com que a imagem n repita| background attachment estica a imagem dinamicamente*/
+
+    background-image: url(Images/Mountian.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover;
+}
+
+
+  /*Margins*/
+
+  #box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background-color: rgb(178, 190, 255);
+    /*
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    
+
+    margin: 50px;
+    */
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background-color: rgb(178, 255, 188);   
+
+  }
+
+
+  #marginsBody{
+    border: 2px solid;
+
+
+    /**/
+    margin: 0px;
+  }
+
+.floatImagesDiv{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: aliceblue;
+    
+    border-style:solid;
+    border-color: rgb(51, 11, 11);
+    border-width: 20px;
+    border-radius: 50px;
+    backdrop-filter: blur(20px);
+    margin-right: auto;
+    margin-left: auto;
+    width: 1600px;
+}
+#bodyFloat{
+    background-image: url(Images/indiceBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*FLOAT*/
+
+.floatImages{
+    height: 300px;
+    border-radius: 40px;
+    padding-left: 20px;
+
+
+    float: right;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(207, 93, 93);
+    float: right;
+
+}
+.paragrafosFloat{
+    clear: both;
+    font-size: 30px;
+
+}
+#positioningBody{
+    background-color: white;
+
+}
+#positioningButton{
+    border: black solid;
+    height: 50px;
+    width: 100px;
+    font-size: 25px ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    background-color: transparent;
+    backdrop-filter:blur(20px);
+    border-radius: 25px;
+
+    margin: 0px;
+    
+}
+.positioningP{
+    color: black;
+}
+
+#box3{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color:rgb(181, 179, 204) ;  
+
+    /*positioning*/
+    position:relative;
+    top: 0px;
+    left: 200px;
+
+    /*fixed = vai ficar sempre no mesmo sitio da tela,msm q se de scroll pra baixo*/
+    /*Sticky = vai quando se der scroll pra baixo elle acompanha*/
+}
+#box4{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    background-color:rgb(86, 75, 90) ;
+
+    position:absolute;
+    top:    100px;
+    left:   100px;
+}
+#indiceBody{
+    margin: 0px;
+  
+
+}
+#pseudoButton{   
+    background-color:transparent;
+    height: 50px;
+    width: 100px;
+   
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color: aliceblue;
+    backdrop-filter: blur(8px);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 45px;
+    
+    position:sticky;
+    top:0px;
+    float:left;
+    clear:right;
+   
+
+}
+#pseudoBody{
+    background-image: url(Images/Appartments.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    margin:0px;
+
+}
+
+#pseudoMainDiv{
+    border: white solid;
+    margin: 10px;
+    height: 1000px;   
+    width: 77%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.1%;
+    border-top: 0px;
+    border-width: 2px;
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.137);
+    
+    
+}
+#pseudoDivBar{
+    border: 1px solid white;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+   position: sticky;
+   background-color: rgba(187, 187, 187, 0.349);
+   backdrop-filter: blur(6px);
+}
+
+
+/*Pseudo Class serve para mudar algo em um estado especial*/
+
+.pseudoHyper:link{
+    color: aqua;
+    font-size: 50px;
+
+}
+.pseudoHyper:Visited{
+    color: blanchedalmond;
+}
+.pseudoHyper:hover{
+    color: cornflowerblue;
+}
+.pseudoHyper:active{
+    color:rgb(255, 30, 0);
+}
+#pseudoButtonDiv:hover{
+    background-color:lightgray;
+}
+#pseudoButtonDiv:active{
+    background-color:rgb(255, 255, 255);
+}
+.pseudoList:nth-child(2){
+    background-color: rgb(20, 248, 134);
+}
+
+/*.pseudoList:nth-child(even ///odd){
+    background-color: yellow;
+}
+.pseudoList:nth-child(even ///odd){
+    background-color: yellow;
+}
+.pseudoList:nth-child(3n /// +2(o offset)){
+    background-color: yellow;
+}
+a cada 3 elementos
+
+
+*/
+
+#shadowTitle{
+    /*Can add multiple shadows*/
+    text-shadow: 0px 0px 15px blue, 0px 5px 10px red ;
+}
+#shadowTitle:hover{
+    box-shadow: 5px 5px 5px black;
+}
+
+.fa-solid{
+    color: aliceblue;
+    font-size: 50px;
+    margin-left: 30px;
+    
+
+}
+.fa-solid:hover{
+    color: rgb(145, 150, 155);   
+    
+}
+.fa-solid:active{
+    color: rgb(237, 246, 255);   
+
+}
+.transformationHeader{
+   border-bottom: solid rgb(212, 202, 202);
+   border-width: 2px;
+   
+
+}
+#box5{
+    border: 4px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    background-color: rgba(90, 92, 109, 0.603);
+    backdrop-filter: blur(5px);
+
+    /*para ir pra esquerda nums negativos*/
+
+    transform: translateX(50px);
+    transform: translateY(50px);
+
+    /*Se quiser usar as duasm medidas, n se pode por assim ^*/
+
+    transform: translate(150px, 150px);
+    /*^ Para mudar em varios eixos*/
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    transform: rotateZ(180deg);
+    
+    transform: scaleX(2);
+    transform: scaleY(2);
+    transform:scale(2, 2);
+
+    transform: skewX(-10deg);
+    transform: skewY(10deg);
+    transform: skew(-30deg, -10deg);
+
+    transform: matrix(1.1, 0, 0, 1.1, 250, 250);/*6 valores... scaleX, skewY, skewX, scaleY, translateX, translateY*/
+}
+#animationsTopBar{
+    height: 55px;
+    width: 100%;
+    background-color: rgba(248, 248, 248, 0.459);
+    backdrop-filter: blur(2px);
+    border-bottom:2px solid rgb(255, 255, 255);
+    
+}
+#animationBody{
+    background-image: url(Images/Sea.jpg);
+    background-attachment: fixed;
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+
+
+}
+/*ANIMATIONS*/
+
+
+
+#box6{
+    width: 250px;
+    height: 250px;
+    font-size: 120px;
+    text-align: center;
+    color: aliceblue;
+    border: 2px solid rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    background-color: rgba(41, 106, 192, 0.171);
+
+    
+    /*animation: slide1;
+    Quantidade de vezes que uma animação roda (pode ser infinite or xnum)
+    animation-iteration-count: infinite;*/
+/*
+    animation-play-state: running;
+    animation-delay: 0s;
+    mais rapido do fim pro inicio vice versa
+    animation-timing-function:linear;
+
+    animation-duration: 2s;*/
+    
+    animation: 2s linear 0s infinite running colors1;
+
+    transform: translate(100%, 100%);
+    
+    
+}
+
+
+
+@keyframes slide1{
+    from{margin-left: 0%;}
+    to{margin-left:100%}
+
+}
+@keyframes rotation1{
+    /*Dá em XYZ*/
+    100%{transform: rotateZ(360deg);}
+}
+@keyframes opacidade1 {
+    50%{opacity:0;}
+    
+}
+@keyframes scale1{
+    50%{transform: scale(0.5, 0.5)}
+}
+@keyframes colors1 {
+    0%{background-color: rgba(221, 134, 134, 0.5);}
+    25%{background-color: rgba(221, 212, 134, 0.5);}
+    50%{background-color: rgba(134, 221, 138, 0.5);}
+    75%{background-color: rgba(134, 201, 221, 0.5);}
+    100%{background-color: rgba(211, 134, 221, 0.5);}
+    
+}
